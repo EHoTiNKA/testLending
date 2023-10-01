@@ -1,0 +1,41 @@
+.headerContent {
+    background-color: rgb(21, 21, 22);
+    position: relative;
+
+    font-family: "Lato", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
+    font-family: "Roboto", sans-serif;
+
+    .headerNav{
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        color: aliceblue;
+
+        .headerNavContent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 45px;
+
+            p{
+                padding-left: 25px;
+                padding-right: 35px;
+                font-size: 25px;
+            }
+            
+            
+        }
+    }
+
+    .headerButton{
+        margin-left: 50px;
+    }
+
+
+    .svgIcon {
+        margin-top: 50px;
+        margin-left: 350px;
+        margin-right: 1450px;
+    }
+}

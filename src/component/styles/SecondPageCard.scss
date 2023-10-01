@@ -1,0 +1,42 @@
+.cardMainContent {
+  width: 400px;
+  height: 400px;
+
+  background: rgb(35, 36, 37);
+  background: linear-gradient(
+    133deg,
+    rgba(35, 36, 37, 1) 0%,
+    rgba(43, 43, 43, 1) 56%,
+    rgba(32, 32, 32, 1) 86%
+  );
+  border-radius: 10px;
+
+  margin-left: 350px;
+
+  .cardTitle {
+    padding-left: 40px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: aliceblue;
+    min-width: 260px;
+    font-family: "Lato", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .cardDesc {
+    padding-left: 40px;
+    font-size: 23px;
+    color: aliceblue;
+    min-width: 300px;
+    font-family: "Lato", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .cardImage {
+    margin-left: 200px;
+    margin-top: 27px;
+  }
+}

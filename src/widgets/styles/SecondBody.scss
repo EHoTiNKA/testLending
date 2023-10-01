@@ -1,0 +1,47 @@
+.secondPageMainText{
+    margin-top: 105px;
+    margin-left: 350px;
+
+    font-family: "Lato", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
+    font-family: "Roboto", sans-serif;
+
+    width: 800px;
+
+    button{
+        margin-top: 45px;
+    }
+  
+
+    h2{
+        color: #b5feef;
+        font-family: "Lato", sans-serif;
+        // font-family: "Noto Sans KR", sans-serif;
+        text-shadow: 0px 0px 40px rgba(181, 254, 239, 0.5);
+        font-size: 65px;
+
+        margin-bottom: 15px;
+    }
+
+    .secondPageParagraf{
+        color: #ffffff65;
+        margin-bottom: 15px;
+        font-size: 25px;
+
+        font-family: "Lato", sans-serif;
+        font-family: "Noto Sans KR", sans-serif;
+        font-family: "Roboto", sans-serif;
+      
+    }
+}
+
+.secondBodyContent{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+
+
+    .cardsSecondBody{
+        margin-top: 105px;
+    }
+}
