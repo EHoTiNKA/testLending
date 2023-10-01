@@ -1,6 +1,7 @@
 .secondPageMainText{
-    margin-top: 105px;
-    margin-left: 350px;
+    // margin-top: 105px;
+    // margin-left: 350px;
+    grid-column: span 2;
 
     font-family: "Lato", sans-serif;
     font-family: "Noto Sans KR", sans-serif;
@@ -37,12 +38,15 @@
 }
 
 .secondBodyContent{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+
+    width: 60%;
+    margin: auto;
+    margin-top: 125px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 100px;
 
 
-    .cardsSecondBody{
-        margin-top: 105px;
-    }
 }
