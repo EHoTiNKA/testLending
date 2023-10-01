@@ -1,3 +1,11 @@
-.bodyFirstPage{
-    border-bottom: 3px solid #2ecfafa1;
+.bodyFirstPage {
+  border-image-source: linear-gradient(
+    to right,
+    #2abc9f00,
+    #2ABC9E 50%,
+    #2abc9f00
+  );
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+  overflow-y: hidden;
 }
