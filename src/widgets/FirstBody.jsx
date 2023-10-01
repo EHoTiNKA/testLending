@@ -2,6 +2,7 @@ import "./styles/FirstBody.scss";
 import OvalButton from "../component/OvalButton";
 import humanSvg from "../assets/humanPNG.png";
 import ellipse from "../assets/ellipseBehHuman.png";
+import SideNav from "./SideNav";
 
 
 const FirstBody = () => {
@@ -24,6 +25,8 @@ const FirstBody = () => {
         <img src={ellipse} alt="crygi" className="elipse" />
         <img src={humanSvg} alt="human" className="human" />        
       </div>
+
+      <SideNav />
     </div>
   );
 };

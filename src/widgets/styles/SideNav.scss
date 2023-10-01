@@ -1,0 +1,17 @@
+.sideNav{
+    height: 100dvh;
+    width: 185px;
+
+    border-image-source: linear-gradient(
+        to top,
+        #2abc9f00,
+        #2ABC9E 50%,
+        #2abc9f00
+      );
+      border-right: 5px solid;
+      border-image-slice: 1;
+
+      position: fixed;
+      top: 0;
+      left: 0;
+}
