@@ -1,6 +1,7 @@
 import "./styles/MainHeader.scss";
 import svgIcon from "../assets/webIcon.svg";
 import OvalButton from "../component/OvalButton";
+import NavItem from "../component/NavItem";
 
 const MainHeader = () => {
   return (
@@ -9,9 +10,9 @@ const MainHeader = () => {
         <div className="headerNav">
           <img src={svgIcon} alt="studioWEB" className="svgIcon" />
           <div className="headerNavContent">
-            <p>Главная</p>
-            <p>Почему именно мы?</p>
-            <p>Контакты</p>
+            <NavItem text={"Главная"} />
+            <NavItem text={"Почему именно мы?"} />
+            <NavItem text={"Контакты"} />
             <button className="headerButton"><OvalButton text={"Заказать"}/></button>
           </div>
         </div>  

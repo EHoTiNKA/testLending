@@ -1,0 +1,15 @@
+.navItem {
+  margin-left: 60px;
+
+  position: relative;
+
+  .itemHighlighter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 8px;
+    background-color: #2CE8C2;
+    border-radius: 0 0 10px 10px;
+  }
+}

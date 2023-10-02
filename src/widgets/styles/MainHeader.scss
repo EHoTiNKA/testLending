@@ -1,40 +1,28 @@
 .headerContent {
-    position: relative;
+  font-family: "Roboto", "Noto Sans KR", "Lato", sans-serif;
 
-    font-family: "Lato", sans-serif;
-    font-family: "Noto Sans KR", sans-serif;
-    font-family: "Roboto", sans-serif;
+  .headerNav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    font-size: 25px;
 
-    .headerNav{
-        display: flex;
-        // justify-content: space-between;
-        align-items: center;
-        color: aliceblue;
+    .headerNavContent {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 
-        .headerNavContent{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 45px;
-
-            p{
-                padding-left: 25px;
-                padding-right: 35px;
-                font-size: 25px;
-            }
-            
-            
-        }
+      margin-right: 330px;
     }
+  }
 
-    .headerButton{
-        margin-left: 50px;
-    }
+  .headerButton {
+    margin-left: 100px;
+  }
 
-
-    .svgIcon {
-        margin-top: 50px;
-        margin-left: 350px;
-        margin-right: 1450px;
-    }
+  .svgIcon {
+    margin-left: 350px;
+  }
 }
