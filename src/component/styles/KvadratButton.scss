@@ -6,24 +6,25 @@
   max-width: 250px;
   padding: 15px 40px;
   background-color: #161515;
-  border: 1.5px solid #2eecc5;
+  border: 1.5px solid;
   border-radius: 5px;
   box-shadow: 0px 0px 40px 1px rgba(46, 236, 197, 0.15);
   font-size: 25px;
 
   &.front {
-    color: aliceblue;
-    
+    margin-left: 12px;
+    margin-top: 12px;
 
+    border-color: #2eecc66c;
+    color: transparent;
     position: relative;
-
   }
   &.back {
-    color: transparent;
-
+    color: aliceblue;
     position: absolute;
-    top: 5px;
-    left: 7px;
-
+    
+    border-color: #2eecc5;
+    top: -12px;
+    left: -12px;
   }
 }
