@@ -1,6 +1,6 @@
 .sideNav{
-    height: 100dvh;
-    width: 185px;
+
+    margin: 0 150px 0 250px;
 
     border-image-source: linear-gradient(
         to top,
@@ -11,7 +11,4 @@
       border-right: 5px solid;
       border-image-slice: 1;
 
-      position: fixed;
-      top: 0;
-      left: 0;
 }
