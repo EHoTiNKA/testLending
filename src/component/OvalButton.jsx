@@ -2,9 +2,9 @@ import "./styles/OvalButton.scss"
 
 const OvalButton = ({ text }) => {
     return(
-        <div className="ovalButtonBorder">
+        <button className="ovalButtonBorder">
             <p>{text}</p>
-        </div>
+        </button>
     );
 };
 

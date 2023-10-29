@@ -7,7 +7,6 @@ import yshiSVG from "./../assets/nayshniki.svg";
 
 const SecondBody = () => {
   return (
-    <body>
       <div className="secondBodyContent">
         <div className="secondPageMainText">
           <h2>Причины сотрудничать с нами</h2>
@@ -51,7 +50,6 @@ const SecondBody = () => {
           image={timeSVG}
         />
       </div>
-    </body>
   );
 };
 

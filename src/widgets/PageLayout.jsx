@@ -1,13 +1,16 @@
 import MainHeader from "./MainHeader";
-import FirstPage from "./FirstPage";
-import SecondPage from "./SecondPage";
+import FirstBody from "./FirstBody";
+import SecondBody from "./SecondBody";
+import SideNav from "./SideNav";
 
 const PageLayout = () => {
   return (
-    <body>
-      <FirstPage /> 
-      <SecondPage />
-    </body>
+    <div className="pageLayout">
+      <MainHeader />
+      <SideNav />
+      <FirstBody />
+      <SecondBody />
+    </div>
   );
 };
 

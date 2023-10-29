@@ -1,28 +1,27 @@
-.headerContent {
-  font-family: "Roboto", "Noto Sans KR", "Lato", sans-serif;
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  font-size: 25px;
+  margin-top: 20px;
 
-  .headerNav {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: aliceblue;
-    font-size: 25px;
-
-    .headerNavContent {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-
-      margin-right: 330px;
-    }
-  }
-
-  .headerButton {
-    margin-left: 100px;
-  }
-
-  .svgIcon {
+  img{
     margin-left: 350px;
   }
+
+  .headerNavContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-right: 330px;
+  }
+
+  .ovalButtonBorder{
+    margin-left: 100px;
+  }
 }
+
+

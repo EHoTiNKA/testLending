@@ -2,8 +2,6 @@ import "./styles/FirstBody.scss";
 import OvalButton from "../component/OvalButton";
 import humanSvg from "../assets/humanPNG.png";
 import ellipse from "../assets/ellipseBehHuman.png";
-import SideNav from "./SideNav";
-
 
 const FirstBody = () => {
   return (
@@ -17,16 +15,16 @@ const FirstBody = () => {
         </p>
 
         <div className="underTextButton">
-          <button><OvalButton text={"Подробнее >"} /></button>
+          <button>
+            <OvalButton text={"Подробнее >"} />
+          </button>
           <p className="nearButtonText">Остались вопросы?</p>
         </div>
       </div>
       <div className="humanSVG">
         <img src={ellipse} alt="crygi" className="elipse" />
-        <img src={humanSvg} alt="human" className="human" />        
+        <img src={humanSvg} alt="human" className="human" />
       </div>
-
-      <SideNav />
     </div>
   );
 };
